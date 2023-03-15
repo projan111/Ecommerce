@@ -54,7 +54,12 @@ const collections = () => {
           <h1 className="text-[#620C8B] text-[24px] font-semibold ">{list.price}</h1>
         </div> 
         <p className="text-[#82E109] text-[14px]">{list.desc}</p>
-      </div></>))}
+        <button className='bg-green-600 w-full my-2 text-gray-200 rounded px-3 py-1 hover:bg-green-500 hover:text-white'>
+          <Link href={'/newPage'}>Add to cart</Link>
+        </button>
+      </div>
+      </>
+      ))}
         
       </div>
       

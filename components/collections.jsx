@@ -4,30 +4,35 @@ import Link from "next/link";
 const collections = () => {
   const itemList = [
     {
+      id: 1,
       image: "./gown.jpg",
       title: "Gown",
       price: "RS 2000",
       desc: "Some description about the clothes , Its a very nice warm and cozy dress",
     },
     {
+      id: 2,
       image: "./gown.jpg",
       title: "Gown",
       price: "RS 4000",
       desc: "Hello description about the clothes , Its a very nice warm and cozy dress",
     },
     {
+      id: 3,
       image: "./gown.jpg",
       title: "Gown",
       price: "RS 6000",
       desc: "Three description about the clothes , Its a very nice warm and cozy dress",
     },
     {
+      id: 4,
       image: "./gown.jpg",
       title: "Gown",
       price: "RS 5000",
       desc: "Here description about the clothes , Its a very nice warm and cozy dress",
     },
     {
+      id: 5,
       image: "./gown.jpg",
       title: "Gown",
       price: "RS 8000",
